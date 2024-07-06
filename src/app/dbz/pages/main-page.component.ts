@@ -20,8 +20,13 @@ export class MainPageComponent{
     {
       name: 'Trunks',
       power: 10000
+    }];
+
+    onNewCharacter(character: Character):void {
+      this.characters.push(character);
+
     }
-  ];
+  ;
 
 
 }

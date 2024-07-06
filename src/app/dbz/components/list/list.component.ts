@@ -14,4 +14,8 @@ export class ListComponent {
     power: 10000
   }]
 
+  ondeleteCharacter(index: number): void {
+    this.characterlist.splice(index, 1);
+  }
+
 }
